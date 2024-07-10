@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grocery Store</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+  <header>
+    <div class="container">
+        <a href="#" class="logo"><i class="fa fa-shopping-basket" aria-hidden="true"></i> Q<span>Ruoho</span></a>
+        <div class="burger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+        <nav class="navbar">
+            <ul class="nav-links">
+              <a href="#" class="Home-btn">Home</a>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#" class="btn">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                <i class="fa badge fa-lg" value=8>&#xf07a;</i>
+            </ul>
+        </nav>
+    </div>
+    <div class="search">
+        <input type="text" placeholder="Search products...">
+        <i class="fa fa-search"></i>
+    </div>
+</header>
+
+    <main>
+        <section class="banner">
+            <h1> <span>Enjoy farm-fresh fruits </span><br>delivered to your door OR save time <br>by picking them up on the go</h1>
+            <a href="#" class="cta-btn">Shop Now</a>
+        </section>
+
+        <section class="featured-fruits">
+            <h2>Featured <em>Fruits</em></h2>
+            <div class="fruit-grid">
+                <div class="fruit-item">
+                    <img src="https://media.istockphoto.com/id/168370138/photo/mango.webp?b=1&s=170667a&w=0&k=20&c=xraujw-bJkOOBKXcqtNaU65kDaBK2szprAGynpRhSIg=" alt="Mango">
+                    <h3>mongo</h3>
+                    <p>Price: <em>$2.99</em>/lb</p>
+                </div>
+                <div class="fruit-item">
+                    <img src="https://media.istockphoto.com/id/984259620/fi/valokuva/eristetty-ananas-valkoisella-taustalla.jpg?s=612x612&w=0&k=20&c=dOaJWHunIxCwVt42GDkVSs5C8oGwx37tgT1-wJqU6j4=" alt="pineapple">
+                    <h3>pinepple</h3>
+                    <p>Price: <em>$1.99</em>/lb</p>
+                </div>
+                <div class="fruit-item">
+                  <img src="https://media.istockphoto.com/id/482728017/fi/valokuva/kiivi.jpg?s=612x612&w=0&k=20&c=BSdt4pHrMXy6RYVnNAvSljNPiGiv-TDDkuq6BNTTmCw=">
+                  <h3>Kiwi</h3>
+                  <p>Price: <em>$3.99</em>/lb</p>
+              </div>
+              <div class="fruit-item">
+                <img src="https://media.istockphoto.com/id/864053288/photo/whole-and-half-of-ripe-papaya-fruit-with-seeds-isolated-on-white-background.webp?b=1&s=170667a&w=0&k=20&c=NIuGKxm_clNfzaYeUOWB1s0y0hIuH9qaKEHT3RzBY18=">
+                <h3>papaya</h3>
+                <p>Price: <em>$3.99</em>/lb</p>
+            </div>
+            <div class="fruit-item">
+              <img src="https://media.istockphoto.com/id/1344251913/photo/pitaya-or-dragon-fruit.webp?b=1&s=170667a&w=0&k=20&c=j5BjmD6VPifpABR4BykJxgTgNtEMztM3PtJpUvxxvTM=">
+              <h3>Dragon Fruit</h3>
+              <p>Price: <em>$8.99</em>/lb</p>
+          </div>
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/1412854156/photo/strawberries-isolated-strawberry-whole-and-a-half-on-white-background-strawberry-slice-with.webp?b=1&s=170667a&w=0&k=20&c=i3w-vsDmvuxyI-6CCRAved2fZ43K-t6zpb5PNkTTYDE=">
+            <h3>Strawberries</h3>
+            <p>Price: <em>$5.99</em>/lb</p>
+          </div>
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/1144576156/fi/valokuva/kyps%C3%A4-mustikka-eristetty.jpg?s=612x612&w=0&k=20&c=wie8wjEiHzUa9baCmCfrpXXUBLw1MZRmE6kV6GmOyHs=">
+            <h3>Blueberries</h3>
+            <p>Price: <em>$9.99</em>/lb</p>
+          </div>
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/648967314/photo/raspberry-with-leaves-isolated-on-white-background.webp?b=1&s=170667a&w=0&k=20&c=IxpMUeRqMGVSv41Iy81fTKzi1Lt_B4XYMC2LIf-_IM4=">
+            <h3>Raspberries</h3>
+            <p>Price: <em>$7.99</em>/lb</p>
+          </div>
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/93293039/fi/valokuva/joukko-kypsi%C3%A4-karhunvatukoita-lehdill%C3%A4.jpg?s=612x612&w=0&k=20&c=-x6JBns0mywXE0Fz9bV1BGe12cQBc6s6gn11h5C_ulg=">
+            <h3>Blackberries</h3>
+            <p>Price: <em>$4.99</em>/lb</p>
+          </div> 
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/1058236448/fi/valokuva/punainen-herukka-jonka-vihre%C3%A4-lehti-on-eristetty-valkoiselle-taustalle-makro-terveellinen.jpg?s=612x612&w=0&k=20&c=KKHgRY_FkZP6saeCBFp1czkLk-YBhacfDJdoO7mngG8=">
+            <h3>Red Currants</h3>
+            <p>Price: <em>$11.99</em>/lb</p>
+          </div> 
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/182355778/fi/valokuva/appelsiini.jpg?s=612x612&w=0&k=20&c=spp9AnEYpw6ojVsjFNFqlLdHvXONaAxjrl9O2s0TGyY=">
+            <h3>Oranges</h3>
+            <p>Price: <em>$9.99</em>/lb</p>
+          </div>
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/165581947/fi/valokuva/greipit.jpg?s=612x612&w=0&k=20&c=YvboNV99fkHk7heS-gE_zNDgVXWI971EHnKHlq-Gqms=">
+            <h3>Grapefruits</h3>
+            <p>Price: <em>$7.99</em>/lb</p>
+          </div> 
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/1389128157/photo/lemon-fruit-with-leaf-isolated-whole-lemon-and-a-half-with-leaves-on-white-background-lemons.webp?b=1&s=170667a&w=0&k=20&c=PO3M-bjo-TGo6WfH7LzZLSBV2jP9Wp9ErNzpzKOaaCo=">
+            <h3>Lemons</h3>
+            <p>Price: <em>$1.99</em>/lb</p>
+          </div> 
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/1338077913/photo/lime-fruits-with-green-leaf-isolated-on-white.webp?b=1&s=170667a&w=0&k=20&c=FbmdcwalH3F4LoqfKe6rarLFirgw82W6Hfgg4a-bLRc=">
+            <h3>Limes</h3>
+            <p>Price: <em>$2.99</em>/lb</p>>
+          </div> 
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/179125144/photo/tangerine-on-white-ground.webp?b=1&s=170667a&w=0&k=20&c=AHETypmdxiCGi5xFONrtfOshwhJbiNq2CSdHHfgjVw4=">
+            <h3>Tangerines</h3>
+            <p>Price: <em>$8.99</em>/lb</p>
+          </div>
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/475373289/fi/valokuva/granaattiomenan-siemenet.jpg?s=612x612&w=0&k=20&c=KtJN8O-0k_RU4C5ztDsyVL43jJo5l70-xXHysWBq-MA=">
+            <h3>Pomegranate</h3>
+            <p>Price: <em>$3.99</em>/lb</p>
+          </div> 
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/1391341567/fi/valokuva/punainen-passion-hedelm%C3%A4-eristetty-valkoisella.jpg?s=612x612&w=0&k=20&c=r1uuv51O_a-7OmXsSkVE4Jb6KK1YTblmqhrkLhPHibo=">
+            <h3>Passion Fruit</h3>
+            <p>Price: <em>$6.99</em>/lb</p>
+          </div> 
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/636118654/fi/valokuva/t%C3%A4htihedelm%C3%A4-carambola-tai-t%C3%A4htiomena.jpg?s=612x612&w=0&k=20&c=mLxXzqZ3HtkH8Wt_BWtPsoiJckQBCeg-slOSdeA0e3Y=">
+            <h3>Starfruit (Carambola)</h3>
+            <p>Price: <em>$12.99</em>/lb</p>
+          </div> 
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/484449084/fi/valokuva/tuore-rambutaani-makea-herkullinen-hedelm%C3%A4-thaimaassa.jpg?s=612x612&w=0&k=20&c=mPPYm285npGkFCALgolL696-H7w88Qc6nsSLWdoa4C0=">
+            <h3>Rambutan</h3>
+            <p>Price: <em>$11.99</em>/lb</p>
+          </div> 
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/1435731332/photo/lychee-fruit-on-white.webp?b=1&s=170667a&w=0&k=20&c=XawvH6GzRq7b7LIBA9fTgXG434t-M31oGi5QputKX10=">
+            <h3>Lychee</h3>
+            <p>Price: <em>$7.99</em>/lb</p>
+          </div>
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/1321448019/photo/ripe-juicy-watermelon-isolated-on-white-background.webp?b=1&s=170667a&w=0&k=20&c=jeHDIwKywoDuZuF-3naj6tA_sfYfIlncg8iCepYGoJ8=">
+            <h3>Watermelon</h3>
+            <p>Price: <em>$9.99</em>/lb</p>
+          </div>
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/157337540/fi/valokuva/yksi-kokonainen-cantaloupe-ja-puolet.jpg?s=612x612&w=0&k=20&c=1lNZm64QZBpE6Y7bH4kxQ0pNFDh-udYccVi4rqSluiI=">
+            <h3>Cantaloupe</h3>
+            <p>Price: <em>$11.99</em>/lb</p>
+          </div>
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/164104139/fi/valokuva/meloni.jpg?s=612x612&w=0&k=20&c=ruteMnrBORNhOoLv3jBAzCLrsaAfduU-QUCjZZlD5Dc=">
+            <h3>Honeydew Melon</h3>
+            <p>Price: <em>$9.99</em>/lb</p>
+          </div>
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/157428769/fi/valokuva/kirsikkatrion-varsi-ja-lehti.jpg?s=612x612&w=0&k=20&c=IrF7LoQPA_l61-FQnm4BUPgtJqvV0SH_QKCw-s14fwo=">
+            <h3>Cherries</h3>
+            <p>Price: <em>$10.99</em>/lb</p>
+          </div>
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/2158592936/fi/valokuva/kyps%C3%A4-mehukas-persikkapuoli-ja-kaksi-persikkaa-joissa-on-vihre%C3%A4t-lehdet-jotka-on-eristetty.jpg?s=612x612&w=0&k=20&c=L3a6SLLV8ohmAw8TZHdazr4ExqvmaPfZPPkAMF5JLEQ=">
+            <h3>Peaches</h3>
+            <p>Price: <em>$8.99</em>/lb</p>
+          </div>
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/1134031619/photo/single-gala-apple-with-leaf-isolated.webp?b=1&s=170667a&w=0&k=20&c=92whVh73BvyP4OsTinl4rAEIuT5t5tLfVzloemjdWYM=">
+            <h3>Apples</h3>
+            <p>Price: <em>$3.99</em>/lb</p>
+          </div>
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/1291262112/fi/valokuva/banaani.jpg?s=612x612&w=0&k=20&c=XWPH4bXOJlZ2CVkreumt86U-IDjwb-f_NyYLgUHFNUo=">
+            <h3>banaani</h3>
+            <p>Price: <em>$1.99</em>/lb</p>
+          </div>
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/474178403/fi/valokuva/p%C3%A4%C3%A4ryn%C3%A4-jonka-lehti-on-eristetty-valkoiselle-taustalle.jpg?s=612x612&w=0&k=20&c=YafTy1CpLI487JnDOnc3FeotZfgWcmvW5gEINxu6SIQ=">
+            <h3>Pears</h3>
+            <p>Price: <em>$4.99</em>/lb</p>
+          </div>
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/98731203/fi/valokuva/punaiset-mustat-ja-vihre%C3%A4t-viiniryp%C3%A4leet-valkoisella.jpg?s=612x612&w=0&k=20&c=iPu7MvM1j2T_x9G5o-JnsPE9T_2_r_0Fy-9NvPQdYU4=">
+            <h3>Grapes (Red, black and Green)</h3>
+            <p>Price: <em>$2.99</em>/lb</p>
+          </div>
+          <div class="fruit-item">
+            <img src="https://media.istockphoto.com/id/2158592936/fi/valokuva/kyps%C3%A4-mehukas-persikkapuoli-ja-kaksi-persikkaa-joissa-on-vihre%C3%A4t-lehdet-jotka-on-eristetty.jpg?s=612x612&w=0&k=20&c=L3a6SLLV8ohmAw8TZHdazr4ExqvmaPfZPPkAMF5JLEQ=">
+            <h3>Plums</h3>
+            <p>Price: <em>$6.99</em>/lb</p>
+          </div>
+
+          <div class="fruit-item">
+                <img src="https://media.istockphoto.com/id/178481233/fi/valokuva/puolitettu-ja-kokonainen-viikuna-eristetty-valkoisella-taustalla.jpg?s=612x612&w=0&k=20&c=6sb8zKqS2jgS2TJG8kds3tHAc3FLGkuW2JQ_uZ8bSAU=">
+                <h3>Figs</h3>
+                <p>Price: <em>$4.99</em>/lb</p>
+            </div>
+           
+            <div class="fruit-item">
+                  <img src="https://media.istockphoto.com/id/1153425731/fi/valokuva/persimmon-hedelm%C3%A4t-ja-yksi-leikattu-puoliksi.jpg?s=612x612&w=0&k=20&c=18nsO8FFrwDUb6ljj5oTXBqvuX-1-BSpq8XWJoX6CFA=">
+                  <h3>Persimmons</h3>
+                  <p>Price: <em>$3.99</em>/lb</p>
+              </div>
+          
+              <div class="fruit-item">
+                    <img src="https://media.istockphoto.com/id/481615534/fi/valokuva/karpaloita.jpg?s=612x612&w=0&k=20&c=sSDCojZwqirchALlyxc1pZbj4c75djX8Ipvc1J3xz8s=">
+                    <h3>Cranberries</h3>
+                    <p>Price: <em>$12.99</em>/lb</p>
+                </div>
+            
+                <div class="fruit-item">
+                      <img src="https://media.istockphoto.com/id/2008709276/photo/apple-group-of-three-apples-isolated-on-white-background-with-space-for-text.webp?b=1&s=170667a&w=0&k=20&c=SnEHXxvv5KqmYt89fbBiqTjDmPrE14kOwZ4Goh4zLBU=">
+                      <h3>Apples (Fuji, Gala, Granny Smith)</h3>
+                      <p>Price: <em>$10.99</em>/lb</p>
+                </div>               
+                <!-- Add more fruit items as needed -->
+            </div>
+        </section>
+
+        <section class="special-offers">
+            <h2>Special <em>Offers</em></h2>
+            <p>Secure a generous <em>30%</em> discount on your first order! Enter code FIRST20 at checkout to claim your savings.</p>
+            <div class="countdown">
+              <h3>Ends in:</h3>
+              <span id="hours">19 hours:</span>
+              <span id="minutes">59 minutes:</span>
+              <span id="seconds">59 seconds</span>
+            </div>
+        </section>
+
+        <section class="new-arrivals">
+            <h2>New <em>Arrivals</em></h2>
+            <div class="fruit-grid">
+                <div class="fruit-item">
+                    <img src="https://media.istockphoto.com/id/925682394/fi/valokuva/guava-hedelm%C3%A4t-lehdill%C3%A4-valkoisella-taustalla.jpg?s=612x612&w=0&k=20&c=H9wp1Tr7lewGf9U-df-jA8_dLDUnL5x8vGBXpyb7YqM=" alt="Dragon Fruit">
+                    <h3>Guava</h3>
+                    <p>Price: <em>$5.99</em>/lb</p>
+                </div>
+        
+                <div class="fruit-item">
+                      <img src="https://media.istockphoto.com/id/459945457/fi/valokuva/goji-marja-eristetty.jpg?s=612x612&w=0&k=20&c=dZOPCtvClqZhVz4_cWyAZNKrU0uzh9M-EltnsFKe9fA=" alt="Goji Berry">
+                      <h3>Goji Berry</h3>
+                      <p>Price: <em>$15.99</em>/lb</p>
+                  </div>
+                <div class="fruit-item">
+                    <img src="https://media.istockphoto.com/id/544476548/fi/valokuva/orgaaninen-chia-valkoisella-taustalla.jpg?s=612x612&w=0&k=20&c=t3rL4iU91s-8gelweGXOkPDDxwF3aVIwQhiWpjzJBKE=" alt="Chia Seeds">
+                    <h3>Kiwi</h3>
+                    <p>Price: <em>$4.99</em>/lb</p>
+                </div>
+                <div class="fruit-item">
+                  <img src="https://media.istockphoto.com/id/1482149278/photo/fresh-avocado-on-white.webp?b=1&s=170667a&w=0&k=20&c=PMqxdJzrLwH-mJccYnTWhuo8He07H76Y5pwDt0nz9tc=" alt="avocado">
+                  <h3>Kiwi</h3>
+                  <p>Price: <em>$7.99</em>/lb</p>
+              </div>
+                <!-- Add more new arrival items as needed -->
+            </div>
+        </section>
+
+    <footer>
+        <p><em>&copy;</em> 2024 Fruit <em>Grocery</em>. All rights reserved.</p>
+    </footer>
+    <!--The footer section has ended here--> 
+
+    <!-- Add your JavaScript here , I have used the CDN link for the script below(not much understand this part of the code ) 😂😂--> 
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const burger = document.querySelector('.burger');
+        const navLinks = document.querySelector('.nav-links');
+    
+        burger.addEventListener('click', () => {
+          navLinks.classList.toggle('active');
+        });
+      });
+
+      document.addEventListener('DOMContentLoaded', () => {
+    // Set the end date and time for the countdown (e.g., 24 hours from now)
+    const endDate = new Date();
+    endDate.setHours(endDate.getHours() + 24);
+
+    function updateCountdown() {
+      const now = new Date();
+      const timeRemaining = endDate - now;
+
+      if (timeRemaining > 0) {
+        const hours = Math.floor(timeRemaining / (1000 * 60 * 60));
+        const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+        document.getElementById('hours').textContent = `${hours} hours:`;
+        document.getElementById('minutes').textContent = `${minutes} minutes:`;
+        document.getElementById('seconds').textContent = `${seconds} seconds`;
+      } else {
+        // Countdown has ended
+        document.querySelector('.countdown').innerHTML = '<h3>Offer has ended!</h3>';
+      }
+    }
+
+    // Update the countdown every second
+    setInterval(updateCountdown, 1000);
+
+    // Initial call to display the correct initial time
+    updateCountdown();
+  });
+    </script>
+</body>
+</html>
