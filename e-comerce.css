@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #231e13;
+}
+
+.cotainer {
+    max-width: 1200px;
+    max-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.conect-us {
+    display: flex;
+    justify-content: center;
+   color: #f9af05;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #183153;
+    padding: 1rem;
+    margin-bottom: 0.3rem;
+    max-width: 50%;
+}
+
+h2 {
+    position: relative;
+   bottom: 1rem;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+}
+
+#Name {
+    font-size: 1rem;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+#Email {
+    font-size: 1rem;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+textarea {
+    font-size: 1rem;
+    padding: 1rem;
+    outline: none;
+    width: 100%;
+    resize: none;
+}
+
+#submit {
+    background-color: #f0b11e;
+    border: none;
+    width: 30%;
+    color: #183153;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-top: 0.8rem;
+    cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #dba833;
+}
+
+.G-P {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.fa-envelope {
+    margin-top: 1.2rem;
+}
+
+.phone-p {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.fa-phone  {
+    margin-top: 1.2rem;
+}
+
+.right-bar {
+    display: flex;
+    flex-direction: column;
+    
+    color: #f9af05;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    
+}
+
+.p-icon {
+    display: flex;
+    gap: 1rem;
+}
+
+.fa-location-dot {
+    margin-top: 1.3rem;
+}
+
+
+/* Tablet */
+@media(max-width:768px) {
+
+    .conect-us {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .location-map {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    form {
+    max-width: 100%;
+    }
+
+    h2 {
+        position: relative;
+       top: 0.7rem;
+      
+    }
+    
+    .contact-icons {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2.5rem;
+    }
+
+}
