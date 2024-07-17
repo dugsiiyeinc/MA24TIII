@@ -13,13 +13,12 @@ body {
 
 .cotainer {
     max-width: 1200px;
-    max-height: 100vh;
     width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .conect-us {
@@ -90,6 +89,14 @@ textarea {
     gap: 0.5rem;
 }
 
+.G-P p {
+    margin-top: 1rem;
+}
+
+.phone-p p {
+    margin-top: 1rem;
+}
+
 .fa-envelope {
     margin-top: 1.2rem;
 }
@@ -158,4 +165,9 @@ textarea {
         margin-top: 2.5rem;
     }
 
+
+    #submit {
+        width: 30%;
+        font-size: 1rem;
+    }
 }
