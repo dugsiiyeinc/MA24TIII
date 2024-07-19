@@ -6,6 +6,17 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+<<<<<<< HEAD
+  background-image:url("https://media.istockphoto.com/id/541289760/fi/valokuva/mansikan-roiskuminen-maitoon.jpg?s=612x612&w=0&k=20&c=D53LYUz315h8mjObWVxT9DYbfOwe6gsPKrut_oyr1vU=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  
+}
+:root {
+  --primary-color: hwb(0 22% 38%);
+=======
   background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ4pAT7uVLw-XUD6Qp9_d4YbZ8qVvHx6OIBHUL925tz9Mwkq-44");
   background-size: cover;
   background-position: center;
@@ -13,6 +24,7 @@ body {
 }
 :root {
   --primary-color: hwb(0 13% 70%);
+>>>>>>> origin/main
   --secondary-color: hsl(0, 32%, 15%);
   --tertiary-color: #ffff;
   --quaternary-color: #0f0d0d;
@@ -25,11 +37,19 @@ a{
 
 
 header {
+<<<<<<< HEAD
+  background: rgb(238, 233, 223, 0.7);
+  background-size: cover;
+  background-position: center;
+  color: var(--primary-color);
+  padding: 10px;
+=======
   background-color: var(--secondary-color);
   background-size: cover;
   background-position: center;
   color: var(--tertiary-color);
   padding: 20px;
+>>>>>>> origin/main
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,7 +57,11 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
+<<<<<<< HEAD
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+=======
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+>>>>>>> origin/main
 }
 
 
@@ -52,7 +76,11 @@ header {
 }
 .logo {
   font-family: 'Permanent Marker', cursive;
+<<<<<<< HEAD
+  font-size: 2rem;
+=======
   font-size: 2.5rem;
+>>>>>>> origin/main
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -62,6 +90,22 @@ header {
   align-items: center;
 }
 .logo span {
+<<<<<<< HEAD
+  color: hwb(37 7% 5%);
+}
+
+.logo:hover {
+    background-color:rgb(241, 93, 40);
+    border-radius: 5px;
+}
+.logo i {
+  margin-left: 50px;
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+/* Add styles for burger sections */
+=======
   color: #f39c12;
 }
 
@@ -72,6 +116,7 @@ header {
 }
 
 
+>>>>>>> origin/main
 
 .burger {
   display: none;
@@ -88,15 +133,27 @@ header {
   display: block;
   width: 28px;
   height: 3px;
+<<<<<<< HEAD
+  background-color: var(--primary-color);
+  margin: 4px 0;
+}
+
+/* Add styles for whole navbar sections */
+=======
   background: var(--tertiary-color);
   margin: 4px 0;
 }
 
 
+>>>>>>> origin/main
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
+  position: relative;
+=======
+>>>>>>> origin/main
 }
 .nav-links {
   display: flex;
@@ -119,11 +176,19 @@ header {
   padding: 10px;
   transition: background-color 0.3s;
 }
+<<<<<<< HEAD
+.Home-btn {
+  color: var(--tertiary-color);
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.2);
+=======
 .Home-btn{
   color: var(--tertiary-color);
   font-size: 1.2rem;
   font-weight: 500;
   background-color: var(--primary-color);
+>>>>>>> origin/main
   color: #fff;
   border-radius: 5px;
   text-transform: uppercase;
@@ -132,12 +197,19 @@ header {
   padding: 5px;
   transition: background-color 0.3s;
 }
+<<<<<<< HEAD
+
+
+.nav-links a:hover {
+  background-color:rgb(241, 93, 40);
+=======
 .nav-links a:hover {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
 }
 .nav-links a:hover {
   background-color: rgba(255, 255, 255, 0.2);
+>>>>>>> origin/main
   border-radius: 5px;
 }
 
@@ -145,7 +217,11 @@ header {
   content:attr(value);
   font-size:0.8rem;
   color: #fff;
+<<<<<<< HEAD
+  background: rgb(97, 183, 47);
+=======
   background: red;
+>>>>>>> origin/main
   border-radius:50%;
   padding: 0 5px;
   position:relative;
@@ -154,31 +230,300 @@ header {
   opacity:0.9;
   
 }
+<<<<<<< HEAD
+/* Add styles for fa-badge sections */
+.fa-badge{
+    position: absolute;
+    right: 240px;
+    top: 20px;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+#fa-badge{
+    color:var(--tertiary-color);
+    font-size: 2.1rem;
+    cursor: pointer;
+
+}
+#fa-badge:hover{
+    background-color:rgb(241, 93, 40);
+    border-radius: 5px;
+}
+/* Add styles for search sections */
+.search {
+  position: relative;  
+=======
 .search {
   position: relative;
+>>>>>>> origin/main
   display: inline-block;
   align-items: center;
   justify-self: end;
   width: 100%;
+<<<<<<< HEAD
+  max-width: 200px;
+  margin-left: 400px;
+  position: absolute;
+  right: 300px;
+  top: 15px;
+=======
   max-width: 250px;
   margin-left: 400px;
   position: relative;
+>>>>>>> origin/main
   
 }
 .search input {
   width: 100%;
   padding: 10px 30px 10px 10px;
   font-size: 1rem;
+<<<<<<< HEAD
+  border: 1px solid #a89c9c;
+  border-radius: 1.2rem;
+  outline: none;
+  cursor: pointer;
+}
+.search input:hover{
+    background-color:rgb(241, 93, 40);
+
+}
+=======
   border: 1px solid #ccc;
   border-radius: 1.2rem;
   outline: none;
 }
 
+>>>>>>> origin/main
 .search i {
   position: absolute;
   right: 0.8rem;
   top: 50%;
   transform: translateY(-50%);
+<<<<<<< HEAD
+  font-size: 25px;
+  color: #999;
+}
+
+/* Add styles for banner sections */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.banner {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-image: url('https://media.istockphoto.com/id/913877192/photo/variety-of-fruits-and-vegetables.jpg?s=612x612&w=0&k=20&c=44cYP4G-_bGvU2INhTM6a1KMxIcV_0uZXIzHTZ63LrY=');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;     
+ 
+}
+
+.banner .overlay {
+    background: rgba(241, 235, 235, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.banner .content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+}
+
+.banner h1 {
+    font-size: 2.5em;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s ease-in-out;
+}
+.banner h1 span {
+    color: #ffcb05; 
+}
+
+
+.banner .cta-btn{
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #ffcb05; 
+    color: #eee7e7;
+    font-size: 2em;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.cta-btn:hover {
+    background-color: #ffa700;
+    transform: scale(1.05);
+}
+
+.portfolio {
+    padding: 20px;
+    text-align: center;
+}
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.portfolio-item{
+    border: ipx solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.1);
+  
+}
+
+/* Add styles for special-offers sections */
+
+.special-offers{
+    background-color:#e9e3d7;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+  }
+  .special-offers h2{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    font-style: italic;
+  
+    
+  }
+  .special-offers em{
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #f39c12;
+    text-align: center;
+    padding: 10px 0;
+    font-style: italic;
+  
+  }
+  .special-offers p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    font-style: italic;
+  }
+
+  .special-offers h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #c51c1c;
+    text-align: center;
+    padding: 0;
+    font-style: italic;
+  }
+  
+  .special-offers #countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px auto;
+    padding: 10px;
+    width: 20px;
+    height: 200px;
+    font-size: 3rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+
+  }
+  
+  #hours {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#c51c1c;
+    text-align: center;
+    padding: 10px 0;
+    font-style: italic;
+  }
+  
+  #minutes {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#c51c1c;
+    text-align: center;
+    padding: 10px 0;
+    font-style: italic;
+  }
+  
+  #seconds {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#c51c1c;
+    text-align: center;
+    padding: 10px 0;
+    font-style: italic;
+  }
+
+
+/* Add styles for featured-fruits sections */
+
+.featured-fruits {
+  margin-top: 40px;  
+=======
   font-size: 20px;
   color: #999;
 }
@@ -269,11 +614,25 @@ h1 span{
 
 /* Add styles for new sections */
 .featured-fruits {
+>>>>>>> origin/main
   padding: 40px 20px;
   text-align: center;
 }
 
 .featured-fruits h2{
+<<<<<<< HEAD
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    padding: 10px 20px 0px 0px;
+    font-style: italic;
+  
+=======
   font-family: 'Permanent Marker', cursive;
   margin: 0;
   font-size: 3rem;
@@ -285,10 +644,23 @@ h1 span{
   text-align: center;
   padding: 10px 0;
   font-style: italic;
+>>>>>>> origin/main
 
 }
 
 .featured-fruits h2 em {
+<<<<<<< HEAD
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #f39c12;
+    text-align: center;
+    padding: 10px 0;
+    font-style: italic;
+=======
   font-size: 3rem;
   font-style: normal;
   font-weight: 800;
@@ -299,12 +671,17 @@ h1 span{
   text-align: center;
   padding: 10px 0;
   font-style: italic;
+>>>>>>> origin/main
 }
 
 
 section {
   padding: 40px 20px;
   text-align: center;
+<<<<<<< HEAD
+ 
+=======
+>>>>>>> origin/main
 }
 
 .featured-fruits .fruit-grid,
@@ -313,6 +690,31 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+<<<<<<< HEAD
+
+}
+
+.fruit-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.fruit-item {
+    border: 1px solid #f4ebeb;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    background-color: var(--tertiary-color); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+                0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.fruit-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 
+                0 12px 40px rgba(0, 0, 0, 0.2);
+=======
 }
 .fruit-grid {
   display: grid;
@@ -324,6 +726,7 @@ section {
   padding: 20px;
   width: 200px;
   text-align: center;
+>>>>>>> origin/main
 }
 .fruit-item h3 {
   font-size: 0.5rem;
@@ -353,7 +756,12 @@ section {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 20px;
+<<<<<<< HEAD
+  color: #f39c12;
+
+=======
   color: #c51c1c;
+>>>>>>> origin/main
   text-align: center;
   padding: 10px 0;
   font-style: italic;
@@ -364,6 +772,74 @@ section {
   height: 50%;
 }
 
+<<<<<<< HEAD
+.fruit-item .button-group {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 10px;
+    top: -20px;
+}
+
+.fruit-item .btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.fruit-item .add-to-cart {
+    background-color: green;
+    color: white;
+}
+
+.fruit-item .delete {
+    background-color:rgb(202, 26, 26);
+    color: white;
+}
+
+.fruit-item .btn:hover {
+    opacity: 0.9;
+}
+
+.fruit-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 
+                0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Add styles for new-arrivals sections */
+
+
+.new-arrivals{
+  padding: 20px;
+  text-align: center;
+  color:#c51c1c;
+  padding: 20px;
+  text-align: center;
+
+}
+.new-arrivals h2{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    font-style: italic;
+  
+
+}
+
+.new-arrivals h2 em {
+  font-size: 3rem;  
+=======
 .special-offers{
   background-color: var(--secondary-color);
   color: white;
@@ -386,11 +862,15 @@ section {
 }
 .special-offers em{
   font-size: 3rem;
+>>>>>>> origin/main
   font-style: normal;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 20px;
+<<<<<<< HEAD
+  color: #f39c12;
+=======
   color: #c51c1c;
   text-align: center;
   padding: 10px 0;
@@ -496,6 +976,7 @@ section {
   letter-spacing: 2px;
   margin-bottom: 20px;
   color:#c51c1c;
+>>>>>>> origin/main
   text-align: center;
   padding: 10px 0;
   font-style: italic;
@@ -503,7 +984,11 @@ section {
 
 
 .cta-btn {
+<<<<<<< HEAD
+  background-color: #e9e3d7;
+=======
   background-color: var(--quaternary-color);
+>>>>>>> origin/main
   color: white;
   padding: 10px 20px;
   text-decoration: none;
@@ -518,7 +1003,11 @@ section {
 }
 
 footer {
+<<<<<<< HEAD
+  background-color: rgba(131, 108, 64, 0.711);
+=======
   background-color: var(--secondary-color);
+>>>>>>> origin/main
   color: white;
   text-align: center;
   padding: 10px 0;
@@ -526,12 +1015,20 @@ footer {
 
 
  footer p {
+<<<<<<< HEAD
+  font-size: 1.3rem;
+=======
   font-size: 14px;
+>>>>>>> origin/main
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
+<<<<<<< HEAD
+  color: #efe7e3;
+=======
   color: #0f0d0d;
+>>>>>>> origin/main
   text-align: center;
   padding: 10px 0;
   font-style: italic;
@@ -544,18 +1041,137 @@ footer p em{
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 20px;
+<<<<<<< HEAD
+  color: orange;
+=======
   color: #efe7e3;
+>>>>>>> origin/main
   text-align: center;
   padding: 10px 0;
   font-style: italic;
 
 }
 
+<<<<<<< HEAD
+/*customer reviews section*/
+
+.customer-reviews {
+    text-align: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.customer-reviews h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.customer-reviews h1 span {
+    color: #f39c12;
+}
+.review-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.review-item {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 300px;
+}
+
+.review-item img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.review-item h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.review-item p {
+    font-size: 1em;
+    color: #666;
+}
+
+.stars {
+    margin-top: 10px;
+}
+
+.stars i {
+    color: #f39c12;
+    margin: 0 2px;
+}
+
+/* Owll Carousel Navigation Buttons */
+.owl-nav button.owl-prev,
+.owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.owl-nav button.owl-prev {
+    left: -50px;
+}
+
+.owl-nav button.owl-next {
+    right: -50px;
+}
+
+
+
+/* the  Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+=======
+>>>>>>> origin/main
 
 
 
  /* Responsive (--Media queries--)adding */
+<<<<<<< HEAD
+=======
 
+>>>>>>> origin/main
 /* Small devices (like tablets and large phones, starts 600px and up) */
 
 @media (max-width: 1200px) {
@@ -607,12 +1223,15 @@ footer p em{
     display: none;
   }
 
+<<<<<<< HEAD
+=======
   .logo i {
     font-size: 3rem;
   }
 }
 
 @media (max-width: 576px) {
+>>>>>>> origin/main
   .logo {
     font-size: 1.5rem;
   }
@@ -627,11 +1246,30 @@ footer p em{
   }
 
   .banner {
+<<<<<<< HEAD
+    height: 80vh;
+}
+
+
+  .banner h1 {
+    font-size: 1em;
+}
+  .cta-btn {
+     font-size: 1.4em;
+     padding: 12px 25px;
+}
+
+
+
+  h1 {
+    font-size: 1.8rem;
+=======
     height: 60vh;
   }
 
   h1 {
     font-size: 1.5rem;
+>>>>>>> origin/main
   }
 
   h1 span {
@@ -642,7 +1280,14 @@ footer p em{
     font-size: 2rem;
   }
 
+<<<<<<< HEAD
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+}
+
+=======
   .special-offers em, .new-arrivals em {
     font-size: 2rem;
   }
+>>>>>>> origin/main
 }
